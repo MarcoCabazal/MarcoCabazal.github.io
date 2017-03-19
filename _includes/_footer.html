@@ -1,0 +1,24 @@
+{% if site.owner.google.ad-client and site.owner.google.ad-slot %}
+<div class="google-ads">
+  <!-- 320 x 50 ad -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="{{ site.owner.google.ad-client }}"
+       data-ad-slot="{{ site.owner.google.ad-slot }}"
+       data-ad-format="auto"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script><br/><br/>
+</div><!-- /.google-ads -->
+{% endif %}
+
+<a href="https://octopusgarden.org">Home</a> &middot; 
+<a href="http://about.me/marku">About</a> &middot; 
+<a href="http://twitter.com/marku">Twitter</a> &middot; 
+<a href="http://linkedin.com/marku">LinkedIn</a> &middot; 
+<a href="mailto:marco.cabazal@chillmill.mobi">Email</a>
+
+<br/><br/>
+
+<span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a> theme.</span>

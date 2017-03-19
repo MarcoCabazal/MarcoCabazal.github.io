@@ -1,0 +1,81 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+{% include head.html %}
+</head>
+
+<body class="post">
+
+{% include browser-upgrade.html %}
+
+{% include navigation.html %}
+
+{% if page.image.feature %}
+  <div class="image-wrap">
+  <img src=
+    {% if page.image.feature contains 'http' %}
+      "{{ page.image.feature }}"
+    {% else %}
+      "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+  alt="{{ page.title }} feature image">
+  {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+  {% endif %}
+  </div><!-- /.image-wrap -->
+{% endif %}
+
+<div id="xmain" role="main">
+  <div class="article-author-side">
+    {% include author-profile.html %}
+  </div>
+<!--  <div id="index"> -->
+<!--    <h1>{{ page.title }}</h1> -->
+
+    <div id="index">
+        {% for post in paginator.posts %}
+            <article class="xpost">
+                <div class="headline-wrap">
+                <h1><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h1>
+                </div>
+                <div class="article-wrap">
+                {{ post.content }}<br/><br/><br/>
+                </div>
+            </article>
+        {% endfor %}
+
+        <div style="clear: left;">
+        <br/><br/>
+          {% if paginator.previous_page %}
+            <a class="paginator" href="/" class="previous">First</a>
+            {% if paginator.page != 2 %}
+              &middot; <a class="paginator" href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+            {% endif %}
+          {% endif %}
+          <span class="page_number paginator">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+          {% if paginator.next_page %}
+            {% if paginator.next_page != paginator.total_pages %}
+            <a class="paginator" href="{{ paginator.next_page_path }}" class="next">Next</a>
+            {% endif %}
+
+            &middot; <a class="paginator" href="/page/{{ paginator.total_pages }}" class="next">Last</a>
+          {% endif %}
+        </div>
+    </div>
+
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <footer>
+    {% include _footer.html %}
+  </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}
+
+</body>
+</html>

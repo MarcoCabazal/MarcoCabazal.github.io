@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.3.3'
 
-gem 'jekyll'
+gem 'jekyll', '~> 3.4.0'
 gem 'jekyll-sitemap'
 gem 'jekyll-paginate'
 gem 'jekyll-gist'
@@ -13,3 +13,4 @@ gem 'redcarpet', '~> 3.1'
 gem 'listen'
 gem 'compass'
 gem 'celluloid', '<0.17.0'
+gem 'minimal-mistakes-jekyll'

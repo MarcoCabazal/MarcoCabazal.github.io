@@ -1,17 +1,21 @@
 image: ruby:2.3
 variables:
   JEKYLL_ENV: production
+
 before_script:
+  - chruby 2.3.3
   - bundle install
+
 test:
   stage: test
   script:
-  - bundle exec jekyll build -d _test
+  - bundle exec jekyll build -d test
   artifacts:
     paths:
     - test
   except:
   - master
+
 pages:
   stage: deploy
   script:

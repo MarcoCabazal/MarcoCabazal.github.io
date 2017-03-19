@@ -1,6 +1,6 @@
 ---
 title: Goodbye Useless Books
-permalink: /posts/goodbye-uselessbooks
+permalink: /posts/goodbye-uselessbooks/
 robotsmeta:
   - index,follow
 categories:

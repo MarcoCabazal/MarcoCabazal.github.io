@@ -1,6 +1,6 @@
 ---
 title: On The Importance of Hiring the Right People
-permalink: /posts/the-crazy-ones
+permalink: /posts/the-crazy-ones/
 dsq_thread_id:
   - 458557625
   - 458557625

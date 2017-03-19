@@ -1,6 +1,6 @@
 ---
 title: Cafes Are Not Just About Exhorbitantly Priced Coffee
-permalink: /posts/coffeeshop-bliss
+permalink: /posts/coffeeshop-bliss/
 dsq_thread_id:
   - 78050920
 keywords:

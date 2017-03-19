@@ -1,6 +1,6 @@
 ---
 title: Do You Really Need A Smartphone?
-permalink: /posts/do-you-really-need-a-smartphone
+permalink: /posts/do-you-really-need-a-smartphone/
 robotsmeta:
   - index,follow
 categories:

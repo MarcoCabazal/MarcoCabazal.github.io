@@ -1,6 +1,6 @@
 ---
 title: Would You Be Your Own Customer?
-permalink: /posts/would-you-be-your-own-customer
+permalink: /posts/would-you-be-your-own-customer/
 robotsmeta:
   - index,follow
 dsq_thread_id:

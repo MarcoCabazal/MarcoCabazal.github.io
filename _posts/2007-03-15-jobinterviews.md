@@ -1,6 +1,6 @@
 ---
 title: An Insider View Into Job Interviews
-permalink: /posts/jobinterviews
+permalink: /posts/jobinterviews/
 tags:
   - careers
   - education

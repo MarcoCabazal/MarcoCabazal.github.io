@@ -1,6 +1,6 @@
 ---
 title: The Unignorable Potential of the iPad
-permalink: /posts/the-potential-of-the-ipad
+permalink: /posts/the-potential-of-the-ipad/
 robotsmeta:
   - index,follow
 categories:

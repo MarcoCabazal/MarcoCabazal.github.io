@@ -1,6 +1,6 @@
 ---
 title: Why Go iOS-Only As A Developer
-permalink: /posts/why-go-ios-only
+permalink: /posts/why-go-ios-only/
 robotsmeta:
   - index,follow
 categories:

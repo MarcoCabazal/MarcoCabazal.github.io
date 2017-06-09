@@ -6,7 +6,7 @@ title_separator          : "-"
 name                     : "Marco Cabazal"
 description              : "no one here to tell us what to do.."
 # url                      : "https://octopusgarden.org"
-url                      : "https://darthmarku.github.io"
+url                      : "https://marcocabazal.github.io"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 destination              : docs

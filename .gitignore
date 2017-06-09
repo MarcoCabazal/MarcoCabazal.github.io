@@ -12,5 +12,7 @@ Gemfile.lock
 node_modules
 npm-debug.log*
 public/
+_drafts/
 _site/
 _test/
+docs/

@@ -5,13 +5,12 @@ title                    : "Octopus' Garden"
 title_separator          : "-"
 name                     : "Marco Cabazal"
 description              : "no one here to tell us what to do.."
-# url                      : "https://octopusgarden.org"
 url                      : "https://marcocabazal.github.io"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 destination              : docs
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+# breadcrumbs            : true # false (default)
 words_per_minute         : 200
 #theme                    : "minimal-mistakes-jekyll"
 comments:
@@ -89,7 +88,7 @@ author:
   github           : MarcoCabazal
   google_plus      :
   keybase          :
-  instagram        : darthmarku
+  instagram        : MarcoCabazal
   lastfm           :
   linkedin         : MarcoCabazal
   pinterest        :
@@ -177,7 +176,7 @@ timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist

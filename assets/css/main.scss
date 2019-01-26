@@ -78,8 +78,8 @@ $susy: (
 @import "sidebar";
 @import "print";
 
-body { 
-  margin: 0; 
+body {
+  margin: 0;
 
   @include breakpoint($small) {
     font-size: 22px;

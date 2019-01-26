@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-ruby '2.3.3'
+ruby '2.6.0'
 
-gem 'jekyll', '~> 3.4.0'
+gem 'jekyll', '>= 3.6.3'
 gem 'jekyll-sitemap'
 gem 'jekyll-paginate'
 gem 'jekyll-gist'
